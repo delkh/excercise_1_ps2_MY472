@@ -1,3 +1,13 @@
+---
+title: "demo"
+output: html_document
+date: "2023-10-25"
+---
+
+
+This function has been adjusted to take a second argument. If the value of the seconf argument is 1, then it will give the mean of the age column, but if it is 2, then it will give the sum of the age colummn
+
+```{r}
 suppressMessages(library(tidyverse))
 data('Orange')
 
@@ -20,3 +30,7 @@ cat("Mean Age:", mean_result, "\n")
 # Call the function with operation 2 to calculate the sum
 sum_result <- somefunction(Orange, 2)
 cat("Sum of Ages:", sum_result, "\n")
+
+
+```
+
